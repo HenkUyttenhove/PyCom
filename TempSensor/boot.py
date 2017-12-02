@@ -12,6 +12,6 @@ if machine.reset_cause() != machine.SOFT_RESET:
 
 if not wlan.isconnected():
     # change the line below to match your network ssid, security and password
-    wlan.connect('oostende', auth=(WLAN.WPA2, 'gpz32914'), timeout=5000)
+    wlan.connect('kawanda.be', auth=(WLAN.WPA2, 'xxxxx'), timeout=5000)
     while not wlan.isconnected():
         machine.idle() # save power while waiting
